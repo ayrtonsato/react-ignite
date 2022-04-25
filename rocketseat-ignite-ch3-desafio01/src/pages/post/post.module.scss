@@ -1,0 +1,35 @@
+.mainContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 5rem 1rem 0 1rem;
+
+  .postTitle {
+    font-size: 3rem;
+    color: var(--heading);
+    margin-bottom: 1.5rem;
+  }
+
+  article {
+    margin-top: 4rem;
+    color: var(--body);
+
+    & > div {
+      margin-bottom: 2.5rem;
+
+      & > *:not(h2) {
+        font-size: 1.125rem;
+      }
+
+      * {
+        font-size: 1.125rem;
+        margin-bottom: 1.125rem;
+      }
+    }
+
+    h2 {
+      font-size: 2.25rem;
+      color: var(--heading);
+      margin-bottom: 2rem;
+    }
+  }
+}

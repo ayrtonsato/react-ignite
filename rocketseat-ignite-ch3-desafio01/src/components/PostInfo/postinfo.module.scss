@@ -1,0 +1,20 @@
+.postInfo {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+}
+
+.container {
+  display: flex;
+  color: var(--info);
+
+  & > span:not(:first-child) {
+    margin-left: 1.625rem;
+  }
+}
